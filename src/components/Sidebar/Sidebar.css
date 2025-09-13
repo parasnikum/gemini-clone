@@ -1,0 +1,51 @@
+.sidebar {
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    background-color: #eff3f8;
+    padding: 10px 10px;
+}
+
+.top {
+    top: 50%;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 10%;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.bottom div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.new-chat {
+    color: red;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    max-width: max-content;
+    padding: 0px 15px;
+    margin: 15px 0px;
+}
+
+.recent-chats {
+    color: blue;
+    display: inline-flex;
+    width: max-content;
+    padding: 0px 15px;
+}
+
+.menu {
+    cursor: pointer;
+    padding: 0px 15px;
+}
