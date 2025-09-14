@@ -1,7 +1,6 @@
-import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';  // Import BrowserRouter
-import Sidebar from './components/Sidebar/Sidebar';  // Optional: Remove `.jsx` if you prefer
-import Login from './pages/Login';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';  
+import Sidebar from './components/Sidebar/Sidebar';  
+import Main from './components/Main/Main';
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <div className='flex h-sceen w-screen'>
         <Sidebar />
         <Routes>
-          <Route path="/" element={<Login />} />
+          <Route path="/" element={<Main />} />
         </Routes>
       </div>
     </div>
